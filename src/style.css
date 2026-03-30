@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+    .container {
+        @apply max-w-300 m-auto w-full flex justify-between items-center px-5 max-sm:px-0 max-sm:flex-col;
+    }
+}
